@@ -35,4 +35,6 @@ Given the class imbalance, model performance was evaluated with a focus on metri
 | *'Yes' Recall* | $0.30$ | Identified $30\%$ of all positive subscribers. (Area for future improvement) |
 | *'Yes' F1-Score* | $0.40$ | Balanced measure of the model's predictive power on the positive class.
 ### Conclusion:
-Machine learning models can successfully predict customer subscription for bank campaigns. While overall accuracy is high, identifying actual subscribers requires handling class imbalance. Insights can guide targeted marketing strategies.
+Machine learning models can successfully predict customer subscription for bank campaigns. While overall accuracy is high, identifying actual subscribers requires handling class imbalance. Insights can guide targeted marketing strategies.In this project, we analyzed the Bank Marketing Dataset to predict whether a customer would subscribe to a term deposit. After performing data preprocessing, encoding, visualization, and model training, we built a classification model that achieved an accuracy of approximately 90%.
+
+The model performed very well in predicting the majority class (“no”), but struggled with the minority class (“yes”) due to strong class imbalance in the dataset. Despite this limitation, the project successfully highlighted important patterns in customer behavior.
